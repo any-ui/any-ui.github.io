@@ -1,0 +1,72 @@
+html{
+    box-sizing: border-box;
+}
+body{
+      margin: 0 auto;
+}
+h1,h2,h3,p,a{
+  font-family: 'PT Sans', sans-serif;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+p{
+  line-height: 23px;
+}
+.wrapper
+{
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+#comingSoon{
+  text-align: center;
+}
+#anyUIIcon{
+  box-shadow: 0 12px 10px -10px rgba(0,0,0,0.2);
+}
+#anyUILogo{
+  padding: 12px;
+  height: 24px;
+}
+#header{
+  background-color: black;
+  height:48px;
+}
+#main-nav{
+  display: flex;
+}
+ul{
+  list-style: none;
+  float: right;
+}
+h1{
+  font-size: 50px;
+  color: #F53855;
+}
+#comingSoon{
+  margin-top: 5%;
+  text-align: center;
+}
+#info{
+ margin-top: 10px;
+ text-align: center;
+ position: relative;
+ float: left;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ width: 50%;
+}
+
+
+.nav-item a{
+  color:white;
+  display: block;
+  font-size: 14px;
+  margin: 0 15px 0 15px;
+}
+.redColor{
+  color: #F53855;
+}
